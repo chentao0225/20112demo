@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变量的解构赋值</title>
+</head>
+<body>
+<script>
+    let obj={
+        name:'sun',
+        age:22
+    };
+    let {name,age}=obj;
+    console.log(name,age);
+
+    let arr=[1,2,3];
+    let [a,,b]=arr;
+    console.log(a,b);
+</script>
+</body>
+</html>
